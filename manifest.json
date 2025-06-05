@@ -1,16 +1,15 @@
 {
-  "manifest_version": 3,
-  "name": "Owlbear Calendar",
-  "version": "1.0",
-  "description": "Calendário e relógio customizável para Owlbear Rodeo.",
-  "permissions": ["storage"],
-  "content_scripts": [
+  "id": "datetime-extension",
+  "title": "Date & Time Tracker",
+  "description": "Shows editable date, time, year, and weather for your session.",
+  "icon": "public/icon.png",
+  "entry": "index.html",
+  "permissions": [
     {
-      "matches": ["https://www.owlbear.rodeo/*"],
-      "js": ["content.js"],
-      "css": ["style.css"]
+      "type": "SCENE_STORAGE"
     }
-  ],
+  ]
+}
   "icons": {
     "128": "assets/icon.png"
   }
