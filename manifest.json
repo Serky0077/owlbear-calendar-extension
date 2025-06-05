@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Owlbear Calendar",
+  "version": "1.0",
+  "description": "Calendário e relógio customizável para Owlbear Rodeo.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.owlbear.rodeo/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "128": "assets/icon.png"
+  }
+}

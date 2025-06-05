@@ -1,0 +1,26 @@
+#calendar-panel {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(30, 30, 30, 0.9);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  z-index: 10000;
+  width: 240px;
+  box-shadow: 0 0 10px #000;
+}
+#calendar-panel input {
+  width: 100%;
+  margin: 4px 0;
+}
+#calendar-panel button {
+  margin-top: 6px;
+  width: 100%;
+  padding: 4px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
